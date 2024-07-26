@@ -8,62 +8,421 @@ body {
   margin: 0;
   padding: 0;
 }
-.dell-logo-div{
+.navbar1{
+  background-color: white !important;
+  padding: 0.1rem 0;
+}
+.navbar1-logo{
     width: 194px;
     height: 56px;
 }
-.dell-logo-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.navbar1-logofocus:focus{
+outline: 1px solid #00468b;
+
 }
-.form-position{
-    position:relative;
-    width: 40em;
-    margin-right: 10em;
+.navbar1-form{
+position: relative;
+
 }
-.search-position{
-    border: none !important;
+.navbar1-searchbutton{
     position: absolute;
-    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2%;
+    height: 90%;
+    width: auto;
+    padding: 5px 2px;
+    border-radius: 2px; 
 }
-.dropdown-toggle::after{
-    display: none !important;
+.navbar1-searchbutton:hover{
+    /* background-color: #f5f6f7; */
+    background-color: #f5f6f7;
 }
-.signin-button-individual1{
-    background-color: #0672cb;
-    color: white;
-    border-radius:0.2rem;
+.navbar1-searchbutton:active{
+  background-color: #f5f6f7 !important;
 }
-.signin-button-individual2{
-    background-color: white;
-    color: #0672cb;
-    border: 1px solid #0672cb !important;
-    border-radius:0.2rem;
+.navbar1-input{
+    border: 1px solid #6e6e6e;
+    border-radius: 2px;
 }
-.WelcometoDell{
-    color: #636363 !important;
+.navbar1-input:focus{
+  outline: 1.5px solid #00468b;
+  box-shadow: none;
+  outline-offset: 0.15em;
+  border:1px solid #6e6e6e;
 }
-.signin-toggle:hover{
-    background-color: #d9d9d9 !important;
+.dropdown-toggle::after {
+  display: none;
 }
-.arrow-down{
-    transition: 0.3s;
+.navbar1-div:hover{
+background-color: #f3f4f6;
 }
-.signin-toggle:hover .arrow-down{
-    transform: rotate(-180deg);
+.down{
+  transition: 0.3s;
 }
-.sign-in-group:hover .signin-card{
-    display: block !important;
+.navbar1-div:hover .down{
+  transform: rotate(-180deg);
 }
-.sign-in-group{
-    position: relative;
+.navbar1-subdiv{
+  height: 66px;
 }
-.signin-card{
-    position: absolute !important;
-    right: 0% !important;
-    border-radius: 1px !important;
+.navbar-signin{
+  position: relative !important;
 }
-.contactus-link:hover{
-    color: black;
+.navbar1-dropdownmenu{
+  position: absolute !important;
+  left: -190% !important;
+  border: 1px solid #6e6e6e;
+  border-radius: 5px;
+  list-style: none;
 }
+.navbar-signin:hover .navbar1-dropdownmenu{
+  display: block;
+}
+.navbar1-button1{
+  border: none;
+  background-color: #0063b8;
+  border-radius: 3px;
+}
+.navbar1-cardtitle{
+  color: #636363;
+}
+.navbar1-subtitle{
+  color: #636363;
+  font-weight: 400;
+  font-size: 14px;
+}
+.navbar1-cardlist{
+  list-style-type: disc;
+}
+.navbar1-cardlist li{
+  font-size: 14px;
+  color: #636363;
+}
+.navbar1-button1 a{
+  font-size: 14px;
+  text-decoration: none;
+  color:#ffffff ;
+}
+.navbar1-button2{
+  border: 1px solid #0063b8;
+  border-radius: 3px;
+  background-color: white;
+}
+.navbar1-button2 a{
+  font-size: 14px;
+  text-decoration: none;
+  color:#0063b8 ;
+}
+.navbar-textelements{
+  font-size: 14px;
+  color: #636363;
+}
+
+
+/* navbar-2 start */
+
+
+.navbar2-mainelements{
+  color: #636363;
+  font-size: 14px;
+}
+
+.navbar2-mainelementsdiv:hover .down{
+  transform: rotate(-180deg);
+}
+.navbar2-mainelementsdiv:hover{
+background-color: #f5f6f7;
+border-bottom: 2px solid #707070;
+}
+.navbar2-mainelementsdiv:hover .navbar2-mainelements{
+  color: #636363;
+}
+.navbar2-productslist{
+  display: none;
+  position: absolute;
+  margin-top: 2px;
+  background-color: white;
+  border: 1px solid #b8b8b8;
+  list-style: none;
+  padding-left: 0;
+  width: 15em;
+}
+.navbar2-productslist li{
+  font-size: 14px;
+  color: #636363;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar2-productslist li:hover{
+  background-color: #f5f6f7;
+  cursor: pointer;
+}
+.navbar2-mainelementsdiv:hover .navbar2-productslist{
+  display: block;
+}
+.navbar2-mainelementsdiv{
+ position: relative;
+}
+.navbar2-gaminglist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-gaminglist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-gaminglist li{
+  padding: 5%;
+}
+.navbar2-gaming:hover .navbar2-gaminglist{
+  display: block;
+}
+
+.navbar2-laptoplist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-laptoplist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-laptoplist li{
+  padding: 5%;
+}
+.navbar2-laptop:hover .navbar2-laptoplist{
+  display: block;
+}
+
+.navbar2-desktoplist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-desktoplist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-desktoplist li{
+  padding: 5%;
+}
+.navbar2-desktop:hover .navbar2-desktoplist{
+  display: block;
+}
+
+.navbar2-monitorlist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-monitorlist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-monitorlist li{
+  padding: 5%;
+}
+.navbar2-monitor:hover .navbar2-monitorlist{
+  display: block;
+}
+
+.navbar2-accessorieslist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-accessorieslist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-accessorieslist li{
+  padding: 5%;
+}
+.navbar2-accessories:hover .navbar2-accessorieslist{
+  display: block;
+}
+
+
+.navbar2-solutionslist{
+  display: none;
+  position: absolute;
+  margin-top: 2px;
+  background-color: white;
+  border: 1px solid #b8b8b8;
+  list-style: none;
+  padding-left: 0;
+  width: 15em;
+}
+.navbar2-solutionslist li{
+  font-size: 14px;
+  color: #636363;
+  padding: 5% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar2-solutionslist li:hover{
+  background-color: #f5f6f7;
+  cursor: pointer;
+}
+.navbar2-mainelementsdiv:hover .navbar2-solutionslist{
+  display: block;
+}
+.navbar2-mainelementsdiv:hover .navbar2-solutionslist{
+  display: block;
+}
+.navbar2-mainelementsdiv{
+ position: relative;
+}
+
+.navbar2-CloudSolutionslist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  min-height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-CloudSolutionslist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-CloudSolutionslist li{
+  padding: 5%;
+}
+.navbar2-CloudSolutions:hover .navbar2-CloudSolutionslist{
+  display: block;
+}
+
+.navbar2-IndustrySolutionslist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  min-height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-IndustrySolutionslist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-IndustrySolutionslist li{
+  padding: 5%;
+}
+.navbar2-IndustrySolutions:hover .navbar2-IndustrySolutionslist{
+  display: block;
+}
+
+.navbar2-InfrastructureSolutionslist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  min-height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-InfrastructureSolutionslist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-InfrastructureSolutionslist li{
+  padding: 5%;
+}
+.navbar2-InfrastructureSolutions:hover .navbar2-InfrastructureSolutionslist{
+  display: block;
+}
+
+.navbar2-SmallBusinesslist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  min-height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-SmallBusinesslist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-SmallBusinesslist li{
+  padding: 5%;
+}
+.navbar2-SmallBusiness:hover .navbar2-SmallBusinesslist{
+  display: block;
+}
+
+.navbar2-WorkforceSolutionslist{
+  position: absolute;
+  top:0;
+  left: 100%;
+  background-color: #f5f6f7;
+  border: 0.2px solid #a6a5a5;
+  min-height: 100%;
+  width: 100%;
+padding: 0;
+display: none;
+}
+.navbar2-WorkforceSolutionslist li:hover{
+  background-color: #e0e1e2;
+
+}
+.navbar2-WorkforceSolutionslist li{
+  padding: 5%;
+}
+.navbar2-WorkforceSolutions:hover .navbar2-WorkforceSolutionslist{
+  display: block;
+}
+
+.navbar2-mainelementsdiv a:focus{
+outline: 1px solid #0063b8;
+color: #636363;
+}
+
+hr{
+  margin: 0;
+}
+/* NAVBAR2 END */
