@@ -122,10 +122,13 @@ background-color: #f3f4f6;
 
 /* navbar-2 start */
 
-
+.navbar2-mainelementsdiv{
+  z-index: 999;
+}
 .navbar2-mainelements{
   color: #636363;
   font-size: 14px;
+
 }
 
 .navbar2-mainelementsdiv:hover .down{
@@ -426,3 +429,210 @@ hr{
   margin: 0;
 }
 /* NAVBAR2 END */
+
+/* SECTION-1 START */
+.section1-content1{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  width: 30%;
+}
+.section1-h21{
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  font-weight: 400;
+}
+.section1-h22{
+  margin: 0.5em 0;
+  font-size: 40px;
+  font-weight: 300;
+}
+.section1-h3{
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.section1-button1{
+  border: none;
+  background-color: #0063b8;
+  color: white;
+  padding: 11px 19px;
+  border-radius: 2px;
+}
+.section1-button1:hover{
+  background-color: #004a8b;
+}
+.section1-button2{
+  border: 1px solid #0063b8;
+  background-color: #ffffff;
+  color: #0063b8;
+  padding: 11px 19px;
+  border-radius: 2px;
+}
+.section1-button2:hover{
+  background-color: #d9f5fd;
+}
+.section1-info{
+  margin-bottom: 10px;
+}
+.section1-slide3-h21{
+  color: white;
+}
+.slide3-button1{
+  border: none;
+background-color: white;
+color: #221d19;
+padding: 11px 19px;
+border-radius: 2px;
+}
+.slide3-button1:hover{
+  background-color: #f0f0f0;
+  color:#6e6e6e;
+}
+.slide3-button2{
+
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 11px 19px;
+  border-radius: 2px;
+  }
+  .slide3-button2:hover{
+    background-color: #f0f0f0;
+    color:#6e6e6e;
+  }
+  .section1-pagination{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+  }
+  .section1-pagination1, .section1-pagination2, .section1-pagination3{
+    border-radius: 1px !important;
+    border: none;
+  }
+  .section1-pagination1:hover, .section1-pagination3:hover{
+    background-color: #d9f5fd;
+  }
+  .section1-pauseplay{
+    background-color: black;
+    color: white;
+  }
+  .section1-pauseplay :first-child{
+    font-size: .875rem;
+    color: #fff;
+  }
+  .section1-pauseplay{
+    padding: 11px 19px;
+    position: absolute;
+    bottom: 13%;
+    right: 13%;
+    border: none;
+   height: 36.5px;
+  }
+  .section1-arrowdown{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12%;
+  }
+
+/* SECTION-1 END */
+
+/* SECTION-2 START */
+
+
+.section2-div-position{
+  position: relative;
+}
+.section2-text{
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  z-index: 999;
+}
+.section2-div-position:hover .section2-text, .section2-div-position:hover .section2-it{
+  background-color: #293b4d;
+  cursor: pointer;
+}
+.section2-div-position:hover .section2-image{
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+.section2{
+  background-color: black;
+}
+.section2-image{
+  background: linear-gradient(147deg, #839db4, #d2d2d2 100%);
+}
+.section2-it{
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  z-index: 999;
+  text-align: left;
+}
+.section2-it-text{
+  color: white;
+
+}
+.section2-ul{
+  list-style: none;
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 44px;
+  background-color: black;
+  z-index: 999;
+}
+.section2-ul li{
+  color: white;
+  text-align: left;
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 3px;
+}
+.section2-div-position:hover  .section2-ul{
+  display: block;
+  text-align: left;
+}
+.section2-ul li a{
+  text-decoration: none;
+  color: white;
+}
+.section2-ul li a:hover{
+  text-decoration: underline;
+}
+.section2-div-position:hover .arrow-down{
+  transform: rotate(-180deg);
+}
+/* SECTION-2 END */
+
+/* SECTION-3 START */
+
+.section-3{
+  background-color: #1d2c3b !important;
+}
+.section3-heading{
+  font-weight: 300;
+  color: white;
+  font-size: 32px;
+}
+.section3-card{
+  background-color: #33414e;
+}
+.section3-button{
+  background-color: #00458b00;
+  border: none;
+  display: flex;
+  margin-top: 80.4px;
+}
+.section3-button:hover{
+  text-decoration: underline;
+  color: white;
+}
+/* SECTION-3 END */
